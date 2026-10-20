@@ -19,5 +19,5 @@ jobs:
         run: test -f app.txt && echo "app.txt exists"
 
       - name: Check app.txt content
-        run: grep -q "Hello DevOps WRONG" app.txt && echo "Content is correct"
+        run: grep -q "Hello DevOps" app.txt && echo "Content is correct"
 
